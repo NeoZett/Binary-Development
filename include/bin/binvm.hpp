@@ -665,6 +665,11 @@ namespace binvm
 			set_variable(instruction.var_id, BinBytes::pack<int32_t>(res ? 1 : 0));
 		}
 
+		void reset_variables() BIN_NOEXCEPT
+		{
+			m_variables.clear();
+		}
+
 	private:
 		void register_builtin_handlers()
 		{
