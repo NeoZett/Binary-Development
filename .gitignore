@@ -54,7 +54,6 @@ compile_commands.json
 *.VC.db
 
 # Build outputs
-bin/
 obj/
 x64/
 x86/
